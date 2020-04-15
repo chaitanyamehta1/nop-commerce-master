@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test suite</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test suite</h1>
+<p>
+  Test duration: 382.375s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.demo.nopcommerce.testsuite.ComputerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNotAddProductToCartSuccessfully
+      </td>
+  <td class="duration">
+    15.393s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [The product has been added to your shopping cart] but found [The product has been added to your shopping]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.demo.nopcommerce.testsuite.ComputerTest.verifyUserShouldNotAddProductToCartSuccessfully(ComputerTest.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.demo.nopcommerce.testsuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNotLoginWithInvalidCredentialsSuccessfully
+      </td>
+  <td class="duration">
+    9.634s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.junit.ComparisonFailure: expected:&lt;Welcome[]&gt; but was:&lt;Welcome[ to our store]&gt;</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.junit.Assert.assertEquals(Assert.java:115)<br />
+              org.junit.Assert.assertEquals(Assert.java:144)<br />
+              com.demo.nopcommerce.testsuite.LoginTest.verifyUserShouldNotLoginWithInvalidCredentialsSuccessfully(LoginTest.java:56)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.demo.nopcommerce.testsuite.RegistrationTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNotRegisterSuccessfullyWithInvalidValidCredentials
+      </td>
+  <td class="duration">
+    45.826s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}<br/>
+&nbsp; (Session info: chrome=80.0.3987.163)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-H84TQ4F&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Pradip\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: f313cc55b24628f84c0a57ed75d52086<br/>
+*** Element info: {Using=class name, value=result}</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)<br />
+              org.openqa.selenium.By$ByClassName.findElement(By.java:389)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              com.demo.nopcommerce.utility.Utility.getTextFromElement(Utility.java:51)<br />
+              com.demo.nopcommerce.pages.RegisterPage.registrationCompletedMessage(RegisterPage.java:87)<br />
+              com.demo.nopcommerce.testsuite.RegistrationTest.verifyUserShouldNotRegisterSuccessfullyWithInvalidValidCredentials(RegistrationTest.java:80)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.demo.nopcommerce.testsuite.ComputerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldAddProductToCartSuccessfully
+      </td>
+  <td class="duration">
+    16.840s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldAddProductToCartSuccessfullyTue_Apr_14_11_25_42_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldAddProductToCartSuccessfullyTue_Apr_14_11_25_42_BST_2020.jpg><img src=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldAddProductToCartSuccessfullyTue_Apr_14_11_25_42_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToComputersPage
+      </td>
+  <td class="duration">
+    9.431s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToComputersPageTue_Apr_14_11_24_01_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToComputersPageTue_Apr_14_11_24_01_BST_2020.jpg><img src=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToComputersPageTue_Apr_14_11_24_01_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.demo.nopcommerce.testsuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldLoginWithValidCredentialsSuccessfully
+      </td>
+  <td class="duration">
+    12.056s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldLoginWithValidCredentialsSuccessfullyTue_Apr_14_11_26_10_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldLoginWithValidCredentialsSuccessfullyTue_Apr_14_11_26_10_BST_2020.jpg><img src=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldLoginWithValidCredentialsSuccessfullyTue_Apr_14_11_26_10_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginFeature
+      </td>
+  <td class="duration">
+    3.599s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToLoginFeatureTue_Apr_14_11_24_28_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToLoginFeatureTue_Apr_14_11_24_28_BST_2020.jpg><img src=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToLoginFeatureTue_Apr_14_11_24_28_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.demo.nopcommerce.testsuite.RegistrationTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToRegisterPage
+      </td>
+  <td class="duration">
+    4.821s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToRegisterPageTue_Apr_14_11_24_58_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToRegisterPageTue_Apr_14_11_24_58_BST_2020.jpg><img src=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldNavigateToRegisterPageTue_Apr_14_11_24_58_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldRegisterSuccessfullyWithValidCredentials
+      </td>
+  <td class="duration">
+    10.494s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldRegisterSuccessfullyWithValidCredentialsTue_Apr_14_11_26_48_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldRegisterSuccessfullyWithValidCredentialsTue_Apr_14_11_26_48_BST_2020.jpg><img src=C:\Users\Pradip\IdeaProjects\nop-commerce/test-output/html/verifyUserShouldRegisterSuccessfullyWithValidCredentialsTue_Apr_14_11_26_48_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
